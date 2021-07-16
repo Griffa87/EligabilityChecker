@@ -9,7 +9,7 @@ namespace EligabiltyChecker
         {
             //Requirements for Congress
             int senatorAge = 30;
-            int senatorLegnth = 9;
+            int senatorLength = 9;
 
             int repAge = 27;
             int repLegnth = 7;
@@ -32,7 +32,7 @@ namespace EligabiltyChecker
 
             //Compound boolean expressions to handle analyses
             {
-                if (appAge >= senatorAge && yearsResident >= senatorLegnth)
+                if (appAge >= senatorAge && yearsResident >= senatorLength)
                 {
                     Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.WriteLine("Congratulations! You are eligible to apply as the US Senetor, or the US Representative.");
